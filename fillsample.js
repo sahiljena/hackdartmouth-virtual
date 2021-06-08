@@ -24,9 +24,9 @@ for (i = 0; i < fillSampleP3.length; i++) {
 
 //For Images
 
-var squareImageUrl = "images/square.png";
-var rectangleImageUrl = "images/rect.png";
-var circularImageUrl = "images/circle.png";
+var squareImageUrl = "https://fillsample.netlify.app/images/square.png";
+var rectangleImageUrl = "https://fillsample.netlify.app/images/rect.png";
+var circularImageUrl = "https://fillsample.netlify.app/images/circle.png";
 var squareImageClass = document.getElementsByClassName("fillSampleImageSquare");
 for (i = 0; i < squareImageClass.length; i++) {
     squareImageClass[i].src = squareImageUrl;
